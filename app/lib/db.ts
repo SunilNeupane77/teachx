@@ -10,7 +10,7 @@ const pool = new Pool({
   port: process.env.PORT ? parseInt(process.env.PORT, 10) : undefined
 });
 
-// Connection check function
+
 export async function checkConnection() {
   let client;
   try {
