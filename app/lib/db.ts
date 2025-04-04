@@ -25,7 +25,7 @@ export async function checkConnection() {
   }
 }
 
-// Optional: Immediately check connection when this module loads
+
 checkConnection().then(isConnected => {
   if (!isConnected) {
     console.error("Database connection check failed on startup");
